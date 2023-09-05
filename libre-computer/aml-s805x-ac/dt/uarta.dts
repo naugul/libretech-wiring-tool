@@ -29,7 +29,7 @@
 
 		__overlay__ {
 			status = "okay";
-			pinctrl-0 = <&uart_a_pins>, <&uart_a_cts_rts_pins>;
+			pinctrl-0 = <&uart_a_pins>;
 			pinctrl-names = "default";
 			uart-has-rtscts;
 		};
